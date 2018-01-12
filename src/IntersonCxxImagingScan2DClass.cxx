@@ -1,7 +1,5 @@
-#pragma unmanaged
 #include "IntersonCxxImagingScan2DClass.h"
 
-#pragma managed
 
 #include <vcclr.h>
 #include <msclr/marshal_cppstd.h>
@@ -10,6 +8,7 @@
 // for Bitmap
 #using "System.Drawing.dll"
 
+#pragma managed
 namespace IntersonCxx
 {
 

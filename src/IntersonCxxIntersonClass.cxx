@@ -1,15 +1,15 @@
 // C++
-#pragma unmanaged
 #include "IntersonCxxIntersonClass.h"
 
 // C#
-#pragma managed
 
 #include <vcclr.h>
 #include <msclr/marshal_cppstd.h>
 
 // Add library from SDK
 #using "Interson.dll"
+
+#pragma managed
 
 namespace IntersonCxx
 {

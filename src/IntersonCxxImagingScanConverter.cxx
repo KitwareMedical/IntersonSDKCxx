@@ -1,12 +1,12 @@
-#pragma unmanaged
 #include "IntersonCxxImagingScanConverter.h"
 
-#pragma managed
 
 #include <vcclr.h>
 #include <msclr/marshal_cppstd.h>
 
 #using "Interson.dll"
+
+#pragma managed
 
 namespace IntersonCxx
 {
